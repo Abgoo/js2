@@ -7,7 +7,7 @@ let sampleObject = {
 function isntIter(sampleObject) {
     if (sampleObject.isItarable) {
         return sampleObject.sampleArray;
-    } else return "provided array isn't itarable";
+    } else return "provided array isn't iterable";
 
 }
 
@@ -16,7 +16,7 @@ console.log(isntIter(sampleObject));
 // task 2
 
 function checkPythagoras(x, y, z) {
-    if (x * x + y * y == z * z || z * z - x * x == y * y || z * z - y * y == x * x) {
+    if (x ** 2 + y ** 2 == z ** 2 || z ** 2 - x ** 2 == y ** 2 || z ** 2 - y ** 2 == x ** 2) {
         return true;
     } else return false;
 };
@@ -26,7 +26,7 @@ console.log(result);
 
 // task 3
 
-let array = [2, 14, 25, 75, 11, 6]
+let array = [2, 14, 25, 75, 11, 6];
 
 function minMax(array) {
 
@@ -59,12 +59,3 @@ result = angle(180);
 console.log(result);
 
 // task 5
-
-function checkStudentGrade
-
-
-
-// hw 3
-
-
-// task 1
